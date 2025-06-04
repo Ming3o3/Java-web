@@ -1,0 +1,48 @@
+/* 按钮基础样式 */
+.btn-approve, .btn-reject, .btn-view {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* 同意按钮样式 */
+.btn-approve {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* 拒绝按钮样式 */
+.btn-reject {
+    background-color: #f44336;
+    color: white;
+    margin-left: 10px;
+}
+
+/* 查看详情按钮样式 */
+.btn-view {
+    background-color: #2196F3;
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+}
+
+/* 表格单元格优化 */
+td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .btn-approve, .btn-reject {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    td {
+        padding: 8px;
+    }
+}
